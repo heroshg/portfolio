@@ -1,0 +1,132 @@
+@media screen and (min-width: 320px)  and (max-width: 480px) {
+    .texto {
+      margin-left:-270px;
+      margin-top:2rem;
+      font-size: 14px;
+    }
+
+    .menu__itens {
+        display:none;
+    }
+
+    .menu-responsivo {
+        margin:auto;
+        margin-right: -250px;
+        margin-top:3.3rem;
+    }
+    .menu-responsivo > button {
+        background:none;
+        border:0px;
+      
+    }
+    
+
+    .intro {
+       margin-right:60px;
+    }
+    .intro__texto {
+        margin-left:450px;
+       
+    }
+    .intro__texto > h1 {
+        width:500px;
+        margin-left:4rem;
+    }
+    .intro__texto > p {
+        text-align:center;
+        margin-left:-60px;
+    }
+
+    .intro__img {
+        display:none;
+    }
+    .intro__button > a >button {
+    margin-right: 2rem;
+        padding:23px 75px;
+        
+    }
+
+    .sobre-mim_texto  > h1 {
+       
+        margin-left: -55px;
+    }
+    .sobre-mim_texto  > p{
+        width:530px;
+        margin-left: 100px;
+    }
+
+    .contato {
+        margin-top:10rem;
+        margin-left:17rem
+    }
+
+    .contato > ul {
+        flex-direction: column; /* Coloca os itens em uma coluna */
+        gap: 2rem; /* Espaçamento entre os itens */
+      }
+      
+      .contato > ul > li {
+        width: 100%; /* Largura total dos itens */
+      }
+
+      .projetos__texto {
+        margin-left:85%;
+      }
+
+      .projetos__1 {
+        flex-direction:column;
+        margin-left: 85%;
+      }
+
+      .texto__servicos {
+        margin-left:85%;
+      }
+
+      .servicos {
+        flex-direction:column;
+        margin-left:90%;
+      }
+
+      .texto__skill {
+        margin-left:70%;
+        min-width:200px;
+      }
+
+    
+      .techs__skills {
+        display:none;
+      }
+    .techs__skills__1 {
+        margin-top:2rem;
+        margin-left: 45%;
+    }
+
+    .techs__skills__2 {
+        margin-top:2rem;
+        margin-left: 45%;
+    }
+    
+    .footer {
+        width:1200px;
+
+    }
+    .footer > span {
+        margin-left: 35rem;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+.menu-toggle {
+display:none;
+}
+
+.techs__skills__1 {
+display:none;
+}
+
+.techs__skills__2 {
+    display:none;
+    }
+}

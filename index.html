@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Heros Hlatki</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/responsive.css">
 </head>
 <body>
     <div class="menu__container">
@@ -19,7 +20,9 @@
                 <li><a href="#skills">Minhas skills</a></li>
             </ul>
         </div>
-        
+        <div class="menu-responsivo">
+           <button class="menu-toggle"> <img src="assets/imgs/menu hamburguer.png" alt=""></button>
+        </div>
     </div>
 
     <div class="intro">
@@ -37,36 +40,36 @@
         </div>
         
         <div class="intro__img">
-            <img src="undraw_Lost_online_re_upmy 1.png" alt="">
+            <img src="/assets/imgs/undraw_Lost_online_re_upmy 1.png" alt="">
         </div>
     </div>
 
     <div class="sobre-mim" id="sobre-mim">
         <div class="sobre-mim_texto">
             <h1>Sobre mim</h1>
-            <p>Olá, eu me chamo Heros Hlatki, e sou desenvolvedor front-end, meu primeiro contato com programação foi lá em 2022 no mês de outubro, e assim comecei minha jornada, comecei com HTML, CSS e depois comecei a aprender Javascript, e desde então me empenhei a desenvolver interface e aplicações front-end na WEB, atualmente eu curso Análise e desenvolvimento de sistemas na Universidade Positivo.</p>
+            <p>Olá, me chamo Heros Hlatki e sou desenvolvedor front-end. Meu primeiro contato com programação foi em outubro de 2022, onde, iniciei minha jornada aprendendo ''HTML'' e ''CSS'', após isso parti em busca de aprender a linguagem de programação ''Javascript''. Desde então me empenhei em desenvolver interfaces e aplicações front-end na WEB. Atualmente curso o segundo semestre de Análise e desenvolvimento de sistemas na Universidade Positivo.</p>
         </div>
 
         <div class="contato" id="contato">
             <ul>
             <li>
-                <img src="smile.png" alt="">
+                <img src="/assets/imgs/smile.png" alt="">
                 <h3>Meu nome</h3>
                 <p>Heros Hlatki Godoy</p>
             </li>
             <li>
-                <img src="mail.png" alt="">
+                <img src="/assets/imgs/mail.png" alt="">
                 <h3>E-mail</h3>
-                <p><a href="mailto:heros.goodoy@gmail.com">heros.goodoy@gmail.com</a></p>
+                <p><a href="mailto:heros.goodoy@gmail.com" target="_blank">heros.goodoy@gmail.com</a></p>
             </li>
-            <li><img src="linkedin.svg" alt="">
+            <li><img src="/assets/imgs/linkedin.svg" alt="">
                 <h3>Linkedin</h3>
-                <p> <a href="https://www.linkedin.com/in/heroshlatki/">/heroshlatki</a></p>
+                <p> <a href="https://www.linkedin.com/in/heroshlatki/" target="_blank">/heroshlatki</a></p>
             </li>
             <li>
-                <img src="github-circle.svg" alt="">
+                <img src="/assets/imgs/github-circle.svg" alt="">
                 <h3>Github</h3>
-                <p><a href="github.com/heroshg">github.com/heroshg</a></p>
+                <p><a href="https://github.com/heroshg" target="_blank">github.com/heroshg</a></p>
             </li>
         </ul>
         </div>
@@ -78,19 +81,19 @@
         <div class="projetos__1">
 
             <div class="projetos__content">
-                <img src="projeto1.jpg" alt="">
+                <img src="/assets/imgs/projeto1.jpg" alt="">
                 <h2>Clone PSN Store</h2>
                 <p>Tecnologias: Angular,TypeScript, CSS</p>
             </div>
 
             <div class="projetos__content">
-                <img src="projeto2.jpg" alt="">
+                <img src="/assets//imgs/projeto2.jpg" alt="">
                 <h2>Blog Neymar</h2>
                 <p>Tecnologias: Angular,TypeScript, CSS.</p>
             </div>
 
             <div class="projetos__content">
-                <img src="projeto 3.jpg" alt="">
+                <img src="assets/imgs/projeto 3.jpg" alt="">
                 <h2>Interface para IA</h2>
                 <p>Tecnologias: React, Tailwind, TS, RadixUI.</p>
             </div>
@@ -101,19 +104,19 @@
         <div class="projetos__1">
 
             <div class="projetos__content">
-                <img src="projeto4.png" alt="">
+                <img src="assets/imgs/projeto4.png" alt="">
                 <h2>Flappy-Bird</h2>
                 <p>Tecnologias:HTML, CSS, JavaScript.</p>
             </div>
 
             <div class="projetos__content">
-                <img src="projeto5.png" alt="">
+                <img src="/assets/imgs/projeto5.png" alt="">
                 <h2>Pokedex usando HTTP</h2>
                 <p>Tecnologias: HTML, CSS, JavaScript.</p>
             </div>
 
             <div class="projetos__content">
-                <img src="Projeto 6.png" alt="">
+                <img src="assets/imgs/Projeto 6.png" alt="">
                 <h2>Diagramação e POO</h2>
                 <p>Tecnologias:Java. </p>
             </div>
@@ -125,19 +128,19 @@
 <div class="servicos" id="servicos">
     <div class="servicos__content">
             
-        <img src="code.png" alt="">
+        <img src="/assets/imgs/code.png" alt="">
         <h1>Criação de Sites</h1>
     </div>
 
     <div class="servicos__content">
             
-        <img src="transition-down.svg" alt="">
+        <img src="assets/imgs/transition-down.svg" alt="">
         <h1>Sites dinâmicos</h1>
     </div>
 
     <div class="servicos__content">
             
-        <img src="smartphone.png" alt="">
+        <img src="assets/imgs/smartphone.png" alt="">
         <h1>Sites responsivos</h1>
     </div>
 </div>
@@ -149,10 +152,18 @@
     </div>
 
     <div class="techs__skills">
-        <img src="icomoon-free_html-five.png" alt="">
-        <img src="fontisto_css3.png" alt="">
-        <img src="akar-icons_javascript-fill.png" alt="">
-        <img src="angular-logo.svg" alt="">
+        <img src="/assets/imgs/icomoon-free_html-five.png" alt="">
+        <img src="/assets/imgs/fontisto_css3.png" alt="">
+        <img src="/assets/imgs/akar-icons_javascript-fill.png" alt="">
+        <img src="/assets/imgs/angular-logo.svg" alt="">
+    </div>
+    <div class="techs__skills__1">
+        <img src="/assets/imgs/icomoon-free_html-five.png" alt="">
+        <img src="/assets/imgs/fontisto_css3.png" alt="">
+    </div>
+    <div class="techs__skills__2">
+        <img src="/assets/imgs/akar-icons_javascript-fill.png" alt="">
+        <img src="/assets/imgs/angular-logo.svg" alt="">
     </div>
 </div>
 
