@@ -1,6 +1,7 @@
 @media screen and (min-width: 320px)  and (max-width: 480px) {
     .texto {
-      margin-left:-270px;
+      margin-left:-280px;
+      width:50px;
       margin-top:2rem;
       font-size: 14px;
     }
@@ -11,11 +12,12 @@
 
     .menu-responsivo {
         margin:auto;
-        margin-right: -250px;
-        margin-top:3.3rem;
+        margin-left:-60px;
+        margin-top:3.5rem;
     }
     .menu-responsivo > button {
         background:none;
+        margin-right:570px;
         border:0px;
       
     }
@@ -25,39 +27,50 @@
        margin-right:60px;
     }
     .intro__texto {
-        margin-left:450px;
+        width:10%;
+        
+        margin-left:-300px;
        
     }
     .intro__texto > h1 {
-        width:500px;
+        width:300px;
         margin-left:4rem;
     }
     .intro__texto > p {
         text-align:center;
-        margin-left:-60px;
+        margin-left:30px;
+        min-width:300px;
     }
 
     .intro__img {
         display:none;
     }
+
+    .intro__button {
+      margin-left:200px;
+    }
     .intro__button > a >button {
-    margin-right: 2rem;
-        padding:23px 75px;
+  
+
+      min-width:150px;
+        padding:20px 10px;
+       
+
         
     }
 
     .sobre-mim_texto  > h1 {
        
-        margin-left: -55px;
+        margin-left: -370px;
     }
     .sobre-mim_texto  > p{
-        width:530px;
-        margin-left: 100px;
+        width:330px;
+        margin-left: 30px;
     }
 
     .contato {
-        margin-top:10rem;
-        margin-left:17rem
+        margin-top:15rem;
+        margin-left:-50px;
     }
 
     .contato > ul {
@@ -70,25 +83,38 @@
       }
 
       .projetos__texto {
-        margin-left:85%;
+        margin-left:0px;
+      }
+
+      .projetos__content {
+        padding: 35px 10px;
+      }
+      .projetos__content  > img{
+        margin-left:5px;
       }
 
       .projetos__1 {
         flex-direction:column;
-        margin-left: 85%;
+        margin-left: 0%;
+
       }
 
       .texto__servicos {
-        margin-left:85%;
+        margin-left:0;
       }
 
       .servicos {
         flex-direction:column;
-        margin-left:90%;
+        margin-left:0%;
+      }
+
+      .servicos__content {
+        min-width:225px;
+        padding: 30px 45px ;
       }
 
       .texto__skill {
-        margin-left:70%;
+        margin-left:0%;
         min-width:200px;
       }
 
@@ -98,20 +124,24 @@
       }
     .techs__skills__1 {
         margin-top:2rem;
-        margin-left: 45%;
+        margin-left: 0px;
     }
 
     .techs__skills__2 {
         margin-top:2rem;
-        margin-left: 45%;
+        margin-left: 0px;
+       
     }
     
     .footer {
-        width:1200px;
+        width:400px;
+        height:100px;
 
     }
     .footer > span {
-        margin-left: 35rem;
+     
+      width:250px;
+     margin-left:5rem;
         
     }
 }

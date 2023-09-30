@@ -261,24 +261,24 @@ color: #f9f9f9;
 
 .techs__skills__1 {
     display:flex;
-    gap:32px;
+    gap:16px;
 }
 
 .techs__skills__2 {
     display:flex;
-    gap:32px;
+    gap:16px;
 }
 
 .techs__skills__1 > img {
     background-color:#333333;
-    padding: 35px 50px;
+    padding: 30px 35px;
     min-height:70px;
     
     
 }
 .techs__skills__2 > img {
     background-color:#333333;
-    padding: 35px 50px;
+    padding: 30px 35px;
     min-height:70px;
     
     
