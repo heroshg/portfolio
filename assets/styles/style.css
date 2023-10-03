@@ -199,6 +199,9 @@ color: #f9f9f9;
     max-width:100%;
 }
 
+.projetos__content > h2 > a {
+    color:white;
+}
 .projetos__content > h2 {
     color:#F9F9F9;
 }
